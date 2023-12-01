@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imagewhatsap"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_margin="50sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/whatsappimg" />
+
+    <EditText
+        android:id="@+id/edtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="15dp"
+        android:hint="Введите номер"
+        android:paddingHorizontal="16dp"
+        android:textColor="@color/black" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/whatsapbtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="25dp"
+        android:backgroundTint="@color/green"
+        android:text="WhatsApp"
+        app:strokeColor="@color/black"
+        app:strokeWidth="3dp" />
+
+
+</LinearLayout>
